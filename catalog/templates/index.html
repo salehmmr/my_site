@@ -1,0 +1,18 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>First Test Project For Django Templates</h1>
+
+  <p>Welcome to <em>!!!! test Project</em>, Django *_* templates . Use models in previous repository </p>
+
+<h2>Dynamic content</h2>
+
+  <p>Our Dynamic context is:</p>
+  <ul>
+    <li><strong>Books:</strong> {{ num_books }}</li>
+    <li><strong>Copies:</strong> {{ num_instances }}</li>
+    <li><strong>Copies available:</strong> {{ num_instances_available }}</li>
+    <li><strong>Authors:</strong> {{ num_authors }}</li>
+  </ul>
+
+{% endblock %}
